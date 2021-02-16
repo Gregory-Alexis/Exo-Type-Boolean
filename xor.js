@@ -1,5 +1,5 @@
 let adultAge = true;
-let wellDressed = 'true';
+let wellDressed = false;
 
 if ((adultAge && !wellDressed) || (!adultAge && wellDressed)) {
   console.log('Sorry, you cant enter to the club')
