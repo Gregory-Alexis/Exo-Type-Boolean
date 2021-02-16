@@ -1,8 +1,8 @@
-let isRainy = false;
+let isRainy = true;
 let isWindy = true;
-let temperature = 20;
 
-if (isRainy === true || isWindy === true) {
+
+if (isRainy === true && isWindy === true) {
   console.log('Wow, careful outside, there is a bad weather !')
 }
 else if (isRainy === true && isWindy === false) {
